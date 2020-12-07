@@ -46,8 +46,7 @@ export const FontAwesomeMarker = Icon.extend({
           </svg>
         </div>
         <i 
-          class="${options.iconClasses} 
-          feature-icon" 
+          class="feature-icon ${options.iconClasses}" 
           style="color:${options.iconColor ?? defaults.iconColor};font-size:${options.iconSize ?? defaults.iconSize};"></i>
       </div>
     `;
