@@ -107,7 +107,9 @@ btnToggleClass.addEventListener('click', () => {
   schoolsVisible = !schoolsVisible;
 });
 
-// ex2: hide by layer
+// ****************************************
+//  FILTER MARKERS BY LAYER GROUP
+// ****************************************
 const btnToggleLayer = document.getElementById('btn-toggle-layer');
 btnToggleLayer.addEventListener('click', () => {
   if (myMap.hasLayer(schoolsLayerGroup)) {
