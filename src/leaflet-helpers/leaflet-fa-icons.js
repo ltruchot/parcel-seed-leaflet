@@ -12,7 +12,7 @@ export const FontAwesomeMarker = Icon.extend({
     if (!options.markerColor) {
       return console.error('markerColor is mandatory when creating new FontAwesomeMarker');
     }
-    if (!options.markerColor) {
+    if (!options.iconClasses) {
       return console.error('iconClasses is mandatory when creating new FontAwesomeMarker');
     }
 
@@ -39,7 +39,7 @@ export const FontAwesomeMarker = Icon.extend({
             xmlns:xlink="http://www.w3.org/1999/xlink">
             <path d="${options.markerPath ?? defaults.markerPath}"
             fill-opacity="${options.markerFillOpacity ?? defaults.markerFillOpacity}"
-            fill="${options.markerStrokeColor ?? defaults.markerColor}"
+            fill="${options.markerColor}"
             stroke="${options.markerStrokeColor ?? defaults.markerColor}"
             stroke-width="${options.markerStrokeWidth ?? defaults.markerStrokeWidth}"
             ></path>

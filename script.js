@@ -26,7 +26,7 @@ myMap.setView([bruxelles.latitude, bruxelles.longitude], 12);
 
 // apply a tile layer (objects and images on the map) https://wiki.openstreetmap.org/wiki/Tiles
 // my choice: https://wiki.openstreetmap.org/wiki/FR:Standard_tile_layer
-const myLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', { // LIGNE 20
+const myLayer = L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
   attribution: '© OpenStreetMap contributors',
   maxZoom: 19,
 });
